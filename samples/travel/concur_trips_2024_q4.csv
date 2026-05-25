@@ -1,0 +1,21 @@
+TripId,Segment Type,Traveler Name,Traveler ID,Departure Date,Return Date,Origin,Destination,Carrier,Flight Number,Cabin Class,Ticket Number,Property Name,Check-In Date,Check-Out Date,City,Country,Car Type,Pick-Up Date,Drop-Off Date,Vendor,Fare Amount,Currency,Booking Status
+TRP-001,Air,John Smith,EMP001,2024-10-14,,LHR,JFK,BA,BA117,J,,,,,,,,,,2850.00,GBP,Confirmed
+TRP-001,Air,John Smith,EMP001,2024-10-18,,JFK,LHR,BA,BA178,J,,,,,,,,,,2850.00,GBP,Confirmed
+TRP-001,Hotel,John Smith,EMP001,,,,,,,,,The Manhattan Club,2024-10-14,2024-10-18,New York,US,,,,,1200.00,USD,Confirmed
+TRP-002,Air,Maria Garcia,EMP002,2024-10-21,,SFO,NRT,UA,UA837,Y,0167890123456,,,,,,,,,,1450.00,USD,Confirmed
+TRP-002,Air,Maria Garcia,EMP002,2024-10-28,,NRT,SFO,UA,UA838,Y,0167890123457,,,,,,,,,,1450.00,USD,Confirmed
+TRP-002,Hotel,Maria Garcia,EMP002,,,,,,,,,Park Hotel Tokyo,2024-10-21,2024-10-28,Tokyo,JP,,,,,1820.00,USD,Confirmed
+TRP-003,Air,Hans Müller,EMP003,2024-11-04,,FRA,LHR,LH,LH902,Y,,,,,,,,,,380.00,EUR,Confirmed
+TRP-003,Air,Hans Müller,EMP003,2024-11-06,,LHR,FRA,LH,LH903,Y,,,,,,,,,,380.00,EUR,Confirmed
+TRP-003,Hotel,Hans Müller,EMP003,,,,,,,,,Hilton London Bankside,2024-11-04,2024-11-06,London,GB,,,,,420.00,GBP,Confirmed
+TRP-004,Air,Priya Patel,EMP004,2024-11-10,,DEL,BOM,AI,AI680,Y,,,,,,,,,,120.00,USD,Confirmed
+TRP-004,Air,Priya Patel,EMP004,2024-11-11,,BOM,DEL,AI,AI681,Y,,,,,,,,,,120.00,USD,Confirmed
+TRP-005,Air,John Smith,EMP001,2024-11-15,,LHR,CDG,BA,BA304,Y,,,,,,,,,,210.00,GBP,Cancelled
+TRP-005,Hotel,John Smith,EMP001,,,,,,,,,Le Meurice,2024-11-15,2024-11-17,Paris,FR,,,,,650.00,EUR,Cancelled
+TRP-006,Car,Maria Garcia,EMP002,,,,,,,,,,,,San Francisco,US,CCAR,2024-11-18,2024-11-22,Hertz,285.00,USD,Confirmed
+TRP-007,Air,Ana Souza,EMP005,2024-12-02,,GRU,EZE,LA,LA8040,Y,,,,,,,,,,380.00,USD,Confirmed
+TRP-007,Air,Ana Souza,EMP005,2024-12-04,,EZE,GRU,LA,LA8041,Y,,,,,,,,,,380.00,USD,Confirmed
+TRP-007,Hotel,Ana Souza,EMP005,,,,,,,,,Alvear Palace,2024-12-02,2024-12-04,Buenos Aires,AR,,,,,520.00,USD,Confirmed
+TRP-008,Air,Hans Müller,EMP003,2024-12-09,,MUC,DXB,LH,LH634,F,,,,,,,,,,6200.00,EUR,Confirmed
+TRP-008,Air,Hans Müller,EMP003,2024-12-14,,DXB,MUC,LH,LH635,F,,,,,,,,,,6200.00,EUR,Confirmed
+TRP-008,Hotel,Hans Müller,EMP003,,,,,,,,,Burj Al Arab,2024-12-09,2024-12-14,Dubai,AE,,,,,4800.00,USD,Confirmed

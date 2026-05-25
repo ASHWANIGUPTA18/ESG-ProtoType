@@ -1,0 +1,12 @@
+django>=5.2,<6.0
+djangorestframework>=3.16
+django-cors-headers>=4.4
+django-filter>=24.3
+dj-database-url>=2.2
+psycopg[binary]>=3.2
+whitenoise>=6.7
+gunicorn>=23.0
+pandas>=2.2
+openpyxl>=3.1
+chardet>=5.2
+python-dateutil>=2.9

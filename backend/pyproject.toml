@@ -1,0 +1,28 @@
+[project]
+name = "breathe-prototype-backend"
+version = "0.1.0"
+description = "ESG ingestion + review prototype (Breathe assignment)"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "django>=5.2,<6.0",
+    "djangorestframework>=3.16",
+    "django-cors-headers>=4.4",
+    "django-filter>=24.3",
+    "dj-database-url>=2.2",
+    "psycopg[binary]>=3.2",
+    "whitenoise>=6.7",
+    "gunicorn>=23.0",
+    "pandas>=2.2",
+    "openpyxl>=3.1",
+    "chardet>=5.2",
+    "python-dateutil>=2.9",
+]
+
+[dependency-groups]
+dev = [
+    "django-extensions>=3.2",
+    "ipython>=8.27",
+]
+
+[tool.uv]
+package = false
