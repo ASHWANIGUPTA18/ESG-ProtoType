@@ -30,8 +30,8 @@ services:
       - key: DJANGO_CSRF_TRUSTED_ORIGINS
         value: "https://carbonledger-frontend.onrender.com,https://carbonledger-api.onrender.com"
 
-  - type: static
-    name: carbonledger-frontend
+staticSites:
+  - name: carbonledger-frontend
     rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: dist
