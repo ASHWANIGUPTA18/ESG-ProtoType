@@ -7,8 +7,8 @@ databases:
 services:
   - type: web
     name: carbonledger-api
-    plan: free
     runtime: python
+    plan: free
     rootDir: backend
     buildCommand: chmod +x build.sh && ./build.sh
     startCommand: gunicorn carbonledger.wsgi:application --bind 0.0.0.0:$PORT
@@ -30,10 +30,8 @@ services:
       - key: DJANGO_CSRF_TRUSTED_ORIGINS
         value: "https://carbonledger-frontend.onrender.com,https://carbonledger-api.onrender.com"
 
-  - type: web
+  - type: static
     name: carbonledger-frontend
-    plan: free
-    runtime: static
     rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: dist
