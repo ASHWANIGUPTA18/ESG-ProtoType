@@ -25,6 +25,10 @@ services:
         value: ".onrender.com"
       - key: PYTHON_VERSION
         value: "3.12.12"
+      - key: CORS_ALLOWED_ORIGINS
+        value: "https://carbonledger-frontend.onrender.com"
+      - key: DJANGO_CSRF_TRUSTED_ORIGINS
+        value: "https://carbonledger-frontend.onrender.com,https://carbonledger-api.onrender.com"
 
   - type: web
     name: carbonledger-frontend
