@@ -1,7 +1,8 @@
 import axios from 'axios'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 
-const api = axios.create({ baseURL: '/api' })
+const API_BASE = import.meta.env.VITE_API_URL || '/api'
+const api = axios.create({ baseURL: API_BASE })
 
 // Batches
 export function useBatches() {
